@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YabActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="80dp"
+        app:srcCompat="@drawable/ya" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView5"
+        android:text="Lanzamos la Asociación Civil “Ya Basta de Violencia Contra la Mujer” para crear un movimiento que sume a millones de mujeres para combatir, a través de la comunicación y acciones puntuales, este cáncer de la sociedad.  Arrancamos esta asociación Gaby Vargas, Lizi Rodríguez, Rossana Fuentes Berain, Kena Moreno, Martha Chapa, María Esther Vázquez, Christiane Von Damm, Fernanda Familiar, María Teresa Bastidas, Julieta Lujambio,  Lilia y Sylvia Sánchez Alcántara, quien la preside.   En la primera fase organizamos los eventos Día Internacional de la Mujer y Retos de las Mujeres que desde 2007 hemos celebrado en la Ciudad de México, Monterrey y a partir del 2008 en Guadalajara.  Las conferencias buscan el crecimiento personal y profesional de las miles de mujeres que asisten.  Tocamos temas históricos que nos permitan caminar con conciencia, conocimiento y paso firme, como en el pasado lo hicieron muchas mujeres que lucharon por nuestros derechos y que en su honor, debemos ejercer" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="52dp"
+        android:layout_marginStart="86dp"
+        android:text="Para mayor información:"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView19"
+        android:layout_marginTop="-52dp"
+        android:text="http://www.yabastadeviolencia.com/home/violencia-contra-las-mujeres"
+        android:textColor="@color/colorPrimary" />
+</RelativeLayout>

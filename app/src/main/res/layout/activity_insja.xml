@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsjaActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="253dp"
+        android:layout_height="133dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/ins" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView3"
+        android:text="El Instituto Jalisciense de las Mujeres ejecuta diversas acciones y coadyuva con diferentes sectores gubernamental y organismos de la sociedad, a fin de incorporar la perspectiva de género, prevención de la violencia para que las y los jaliscienses ejercer sus derechos:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView13"
+        android:text="Fomentar e impulsar por medio de acciones coordinadas la incorporación de las mujeres líderes en el ámbito público." />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button14"
+        android:layout_alignParentStart="true"
+        android:text="Operación de Centros para el Desarrollo de las Mujeres con Perspectiva de Género, a nivel municipal, tiene como eje central fomentar e instrumentar acciones y estrategias que generen las condiciones necesarias para  promover y consolidar una cultura de igualdad entre mujeres y hombres, con un abordaje integral y profesional de las necesidades e intereses estratégicos de las mujeres en los municipios considerados en la estrategia Cruzada contra el Hambre (SINHAMBRE)." />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="hola"
+        android:text="Siguiente"
+        android:textColor="@color/ic_launcher_background" />
+</RelativeLayout>
